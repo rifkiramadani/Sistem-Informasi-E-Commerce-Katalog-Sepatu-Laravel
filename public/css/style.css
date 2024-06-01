@@ -1,5 +1,6 @@
 body {
-    background-image: url("/img/assets/background.jpg");
+    background-image: url("/img/assets/background2.jpeg");
+    font-family: "Nunito Sans", sans-serif;
 }
 
 .form-signin {

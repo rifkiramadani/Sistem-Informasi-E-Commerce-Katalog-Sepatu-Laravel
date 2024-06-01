@@ -13,7 +13,7 @@ class SepatuController extends Controller
         return view('sepatu.sepatu',[
             'title' => 'Halaman Sepatu',
             'navtitle' => 'Sepatu',
-            'sepatus' => Sepatu::all()
+            'sepatus' => Sepatu::latest()->paginate(6)
         ]);
     }
 
